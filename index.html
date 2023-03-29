@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Term Project - Inhye Yoon</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <div class="site-header__logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="site-header__menu-icon">
+                    <a href="#" class="js-menu-open"><ion-icon name="menu"></ion-icon></a>
+                </div>
+                <nav class="site-header__menu js-menu" data-open="0">
+                    <div class="site-header__close">
+                        <a href="#" class="js-menu-close"><ion-icon name="close"></ion-icon></a>
+                    </div>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#offer">Offer</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a class="button" href="#order">Order</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner bg-centre">
+            <div class="grid">
+                <div class="banner_content">
+                    <h1>What could be more comforting than a delicious pho? <br>Take a pho-rest!</h1>
+                    <div class="btn"><a href="#">ORDER NOW</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="mission">
+            <div class="grid">
+                <div class="mission_content">
+                    <h3>What is our mission</h3>
+                    <p>“Phorest provides healthy and fresh Vietnamese food while enhancing the traditional taste of vietnam to make people happy and satisfied”</p>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="grid">
+                <div class="txt-col">
+                    <h3>About Us</h3>
+                    <h2>Learn about <br>our story</h2>
+                    <img src="images/shape.png" alt="shape">
+                    <p>We want to provide Vietnamese food with high quality and reasonable price so that everyone, every generation could enjoy it comfortably. We are trying to serve a meal with sincerity and deep local taste.
+                    </p>
+                    <div class="btn"><a href="#">READ MORE</a></div>
+                </div>
+                <div class="about-image">
+                    <img src="images/image-0.png" alt="rice paper roll">
+                </div>
+            </div>
+        </section>
+        <section id="offer" class="offers">
+            <div class="grid">
+                <h2>We promise to offer</h2> 
+                <ul>
+                    <li>
+                        <img src="images/icon-01.png" alt="icon">
+                        <h3>Fresh Ingredients</h3>
+                        <p>We will cook with fresh ingredients and make your food taste better</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-02.png" alt="icon">
+                        <h3>Tasty Food</h3>
+                        <p>We promise to always serve delicious food to our customers.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-03.png" alt="icon">
+                        <h3>Good Service</h3>
+                        <p>We will try our best to consistently meet your expectations</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="menu" class="grid">
+            <div class="special-dishes">
+                <div class="content">
+                    <h3>Our Menu</h3>
+                    <h2>Special dishes</h2>
+                    <img src="images/shape.png" alt="shape">
+                </div>
+                <div class="dishes">
+                    <ul>
+                        <li class="menu-items">
+                            <div>
+                                <div class="item">
+                                    <div class="title">
+                                        <h4>PHO GA</h4>
+                                        <h5>$12.90</h5>
+                                    </div>
+                                    <p>Sliced Beef, Braised Brisket & Beef Balls Noodle Soup</p>
+                                </div>
+                                 <div class="item">
+                                    <div class="title">
+                                        <h4>PHO BO CLASSIC</h4>
+                                        <h5>$12.90</h5>
+                                    </div>
+                                    <p>Sliced Beef & Braised Brisket Noodle Soup</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/dish-02.png" alt="dish 2">
+                        </li>
+                        <li class="menu-items">
+                            <div>
+                                <div class="item">
+                                    <div class="title">
+                                        <h4>PHO TAI BO VIEN</h4>
+                                        <h5>$12.90</h5>
+                                    </div>
+                                    <p>Sliced Beef, Braised Brisket & Beef Balls Noodle Soup</p>
+                                </div>
+                                 <div class="item">
+                                    <div class="title">
+                                        <h4>HU TIEU NAM VANG</h4>
+                                        <h5>$12.90</h5>
+                                    </div>
+                                    <p>Prawn & Pork RIbs Noodle Soup</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/dish-01.png" alt="dish 1">
+                        </li>
+                        <li class="menu-items">
+                            <div>
+                                <div class="item">
+                                    <div class="title">
+                                        <h4>PHO BO KHO</h4>
+                                        <h5>$9.90</h5>
+                                    </div>
+                                    <p>Spicy Beef Stewed Noodle Soup</p>
+                                </div>
+                                <div class="item">
+                                    <div class="title">
+                                        <h4>PHO TAI BO VIEN</h4>
+                                        <h5>$12.90</h5>
+                                    </div>
+                                    <p>Sliced Beef, Braised Brisket & Beef Balls Noodle Soup</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/dish-03.png" alt="dish 3">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="order" class="menu">
+            <div class="grid txt-col">
+                <div class="content">
+                    <h3>Our Meal Kit</h3>
+                    <h2>Fresh & Healthy, <br> delicious</h2>
+                </div>
+                <div class="btn"><a href="#">ORDER NOW</a></div>
+            </div>
+            <div class="img-gallery msnry-grid">
+                <div class="msnry-grid-sizer"></div>
+                <div class="msnry-gutter-sizer"></div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-01.jpg" alt="food 1">
+                </div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-02.jpg" alt="food 2">
+                </div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-3.jpg" alt="food 3">
+                </div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-04-2.jpg" alt="food 4">
+                </div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-5.jpeg" alt="food 5">
+                </div>
+                <div class="msnry-grid-item">
+                    <img src="images/image-04.jpg" alt="food 6">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="grid contact">
+            <div class="txt-col">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Sit eget praesent nibh sollicitudin lectus dolor. Accumsan odio proin urna volutpat. In cursus vitae felis euismod arcu consectetur. Vitae elementum faucibus lectus etodio nunc. Mauris arcu molestie elementum sit. </p>
+                <ul>
+                    <li><ion-icon class="icon" name="call"></ion-icon>604-123-4567</li>
+                    <li><ion-icon class="icon" name="navigate"></ion-icon>10346 Whalley Blvd  Surrey,  BC  V3T 4H4</li>
+                </ul>
+            </div>
+            <div class="map">
+                <div><img src="images/map.jpeg" alt="map"></div>
+            </div>
+        </section>
+    
+    </main>
+    <footer class="footer">
+        <div class="grid">
+            <div class="navigation">
+                <h4>Navigation</h4>
+                <ul>
+                    <li>About</li>
+                    <li>Order</li>
+                    <li>Menu</li>
+                    <li>FAQ</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h4>Company</h4>
+                <ul>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+            <div class="subscription">
+                <h4>Newsletter Subscription</h4>
+                <div class="input">
+                    <input type="text" placeholder="Email Address">
+                    <label class="submit">Submit</label>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.0.4/esm/ionicons.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
